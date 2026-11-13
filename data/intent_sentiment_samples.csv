@@ -1,0 +1,21 @@
+id,text,language,intent,sentiment,notes
+1,"Where is my order? It's been 10 days.",en,order_status,negative,
+2,"¿Cuándo llega mi pedido?",es,order_status,neutral,
+3,"El delivery llegó late otra vez 😤",mixed,complaint,negative,code-switching
+4,"I want to return these shoes, they're too small.",en,refund_request,neutral,request outweighs mild complaint
+5,"Quiero mi reembolso, el producto llegó roto.",es,refund_request,negative,complaint + request -> request
+6,"Does this charger work with my phone model?",en,product_question,neutral,
+7,"¿Tienen esta camisa en talla M?",es,product_question,neutral,
+8,"¡Qué chévere el servicio, súper rápido!",es,praise,positive,regional expression
+9,"Best customer service I've ever had.",en,praise,positive,
+10,"La app se cierra cada vez que intento pagar.",es,complaint,negative,
+11,"Great, another update that broke checkout.",en,complaint,negative,sarcasm
+12,"Hola, buenas tardes",es,other,neutral,greeting only
+13,"Can I change the delivery address? Gracias!",mixed,order_status,neutral,code-switching
+14,"Me encantó, pero el envío tardó mucho.",es,complaint,negative,"mixed opinion; flagged unsure for review"
+15,"Is the refund already processed?",en,refund_request,neutral,follow-up on refund
+16,"No hay de qué, gracias a ustedes 🙂",es,other,positive,"means 'you're welcome', not 'there is nothing'"
+17,"The size chart is confusing, is a 10 US a 42 EU?",en,product_question,negative,
+18,"Necesito parquear cerca de la tienda, ¿hay parking?",mixed,product_question,neutral,Spanglish is valid
+19,"Thanks, problem solved!",en,praise,positive,
+20,"¿Por qué me cobraron dos veces?",es,complaint,negative,could become refund_request if they ask for money back
